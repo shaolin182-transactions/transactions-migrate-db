@@ -19,8 +19,9 @@ jobs:
         with:
           java-version: 11
       - name: Build with Maven
-        run: mvn -B clean install --file pom.xml sonar:sonar
+        run: mvn -B clean install --file pom.xml --settings settings.xml sonar:sonar
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+          GITHUB_USERNAME: ${{ github.actor }}
 

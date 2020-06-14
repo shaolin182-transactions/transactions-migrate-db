@@ -41,10 +41,10 @@
     <!-- END Plugins versions-->
 
     <!-- SONAR Properties -->
+    <sonar.projectKey>shaolin182_transactions-migrate-db</sonar.projectKey>
     <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     <sonar.organization>shaolin182</sonar.organization>
-    <sonar.coverage.jacoco.xmlReportPaths>sonar-report/target/site/jacoco-aggregate/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
-    <aggregate.report.dir>sonar-report/target/site/jacoco-aggregate/jacoco.xml</aggregate.report.dir>
+    <sonar.login>a1508d59ddee6f5be205573dfc4647004c9c5785</sonar.login>
     <!-- END SONAR Properties -->
 
   </properties>
@@ -181,6 +181,11 @@
         <plugin>
           <artifactId>maven-project-info-reports-plugin</artifactId>
           <version>${maven-project-info-reports-plugin.version}</version>
+        </plugin>
+        <plugin>
+          <groupId>org.sonarsource.scanner.maven</groupId>
+          <artifactId>sonar-maven-plugin</artifactId>
+          <version>${sonar-maven-plugin.version}</version>
         </plugin>
       </plugins>
     </pluginManagement>
