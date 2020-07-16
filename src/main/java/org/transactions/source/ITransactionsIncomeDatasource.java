@@ -4,5 +4,5 @@ import java.util.List;
 
 public interface ITransactionsIncomeDatasource {
 
-    List<Object> getTransactions();
+    List<Object> getTransactions() throws Exception;
 }
