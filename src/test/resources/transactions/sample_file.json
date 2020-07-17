@@ -1,0 +1,3775 @@
+[
+  {
+    "_id": "5e4072af3f70370017bc69a2",
+    "income": 100,
+    "outcome": 0,
+    "date": "2020-02-10T20:58:37.398Z",
+    "multi": false,
+    "bankaccount": {
+      "id": 22,
+      "category": "Perso",
+      "label": "CMB"
+    },
+    "cost": 10000
+  },
+  {
+    "_id": "5e406ed13f70370017bc699c",
+    "income": 0,
+    "outcome": 39.28,
+    "date": "2020-02-10T20:37:05.670Z",
+    "multi": false,
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    },
+    "category": {
+      "id": 61,
+      "category": "Transport",
+      "label": "Assurance"
+    },
+    "cost": -3928
+  },
+  {
+    "_id": "5e406ed63f70370017bc699d",
+    "income": 0,
+    "outcome": 100,
+    "date": "2020-02-10T20:37:05.670Z",
+    "multi": false,
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    },
+    "cost": -10000
+  },
+  {
+    "_id": "5df63bf9b8691b00121812cb",
+    "income": 0,
+    "outcome": 8,
+    "date": "2019-11-21T13:57:35.217Z",
+    "multi": false,
+    "bankaccount": {
+      "id": 22,
+      "category": "Perso",
+      "label": "CMB"
+    },
+    "category": {
+      "id": 10,
+      "category": "Autres",
+      "label": "Banque"
+    },
+    "cost": -800
+  },
+  {
+    "_id": "5df5e7cab8691b00121812aa",
+    "income": 0,
+    "outcome": 23,
+    "date": "2019-11-21T07:55:56.038Z",
+    "multi": false,
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    },
+    "category": {
+      "id": 12,
+      "category": "Autres",
+      "label": "Note de Frais Sopra"
+    },
+    "cost": -2300
+  },
+  {
+    "_id": "5df5e7a9b8691b00121812a9",
+    "income": 0,
+    "outcome": 17,
+    "date": "2019-11-20T07:55:56.038Z",
+    "multi": false,
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    },
+    "category": {
+      "id": 12,
+      "category": "Autres",
+      "label": "Note de Frais Sopra"
+    },
+    "label": "Parking Journée",
+    "cost": -1700
+  },
+  {
+    "_id": "5df63effb8691b00121812e5",
+    "income": 31.19,
+    "outcome": 0,
+    "date": "2019-11-19T14:03:57.272Z",
+    "multi": false,
+    "bankaccount": {
+      "id": 21,
+      "category": "Commun",
+      "label": "CMB"
+    },
+    "category": {
+      "id": 15,
+      "category": "Maison",
+      "label": "Divers"
+    },
+    "cost": 3119
+  },
+  {
+    "_id": "5df63f09b8691b00121812e6",
+    "income": 0,
+    "outcome": 35.49,
+    "date": "2019-11-19T14:03:57.272Z",
+    "multi": false,
+    "bankaccount": {
+      "id": 21,
+      "category": "Commun",
+      "label": "CMB"
+    },
+    "category": {
+      "id": 64,
+      "category": "Bébé",
+      "label": "Accessoires"
+    },
+    "cost": -3549
+  },
+  {
+    "_id": "5df63ed0b8691b00121812e1",
+    "income": 0,
+    "outcome": 54.85,
+    "date": "2019-11-18T14:03:57.272Z",
+    "multi": false,
+    "bankaccount": {
+      "id": 21,
+      "category": "Commun",
+      "label": "CMB"
+    },
+    "category": {
+      "id": 15,
+      "category": "Maison",
+      "label": "Divers"
+    },
+    "cost": -5485
+  },
+  {
+    "_id": "5df63ed9b8691b00121812e2",
+    "income": 0,
+    "outcome": 85.02,
+    "date": "2019-11-18T14:03:57.272Z",
+    "multi": false,
+    "bankaccount": {
+      "id": 21,
+      "category": "Commun",
+      "label": "CMB"
+    },
+    "category": {
+      "id": 14,
+      "category": "Alimentaire",
+      "label": "Supermarché"
+    },
+    "cost": -8502
+  },
+  {
+    "_id": "5df63ee9b8691b00121812e3",
+    "income": 0,
+    "outcome": 21,
+    "date": "2019-11-18T14:03:57.272Z",
+    "multi": false,
+    "bankaccount": {
+      "id": 21,
+      "category": "Commun",
+      "label": "CMB"
+    },
+    "category": {
+      "id": 28,
+      "category": "Impôts & Taxes",
+      "label": "Taxe d’habitation"
+    },
+    "cost": -2100
+  },
+  {
+    "_id": "5df63ef3b8691b00121812e4",
+    "income": 0,
+    "outcome": 16,
+    "date": "2019-11-18T14:03:57.272Z",
+    "multi": false,
+    "bankaccount": {
+      "id": 21,
+      "category": "Commun",
+      "label": "CMB"
+    },
+    "category": {
+      "id": 67,
+      "category": "Impôts & Taxes",
+      "label": "Taxe foncière"
+    },
+    "cost": -1600
+  },
+  {
+    "_id": "5df5e755b8691b00121812a7",
+    "income": 0,
+    "outcome": 9.99,
+    "date": "2019-11-18T07:55:56.038Z",
+    "multi": false,
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    },
+    "category": {
+      "id": 44,
+      "category": "Loisir",
+      "label": "Téléphone"
+    },
+    "cost": -999
+  },
+  {
+    "_id": "5a75dc44f9fe923a2b2f7c43",
+    "income": 2234.99,
+    "outcome": 0,
+    "date": "2018-01-31T15:58:42.000Z",
+    "multi": false,
+    "category": {
+      "id": 46,
+      "category": "Revenu",
+      "label": "Salaire"
+    },
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    },
+    "cost": 223499
+  },
+  {
+    "_id": "5a75dc32f9fe923a2b2f7c42",
+    "income": 0,
+    "outcome": 24.99,
+    "date": "2018-01-31T15:58:16.000Z",
+    "multi": false,
+    "category": {
+      "id": 37,
+      "category": "Loisir",
+      "label": "Jeux Vidéos"
+    },
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    },
+    "label": "Star wars Battleground",
+    "cost": -2499
+  },
+  {
+    "_id": "5a75dc18f9fe923a2b2f7c41",
+    "income": 0,
+    "outcome": 50,
+    "date": "2018-01-31T15:58:00.000Z",
+    "multi": false,
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    },
+    "cost": -5000
+  },
+  {
+    "_id": "5a75f264f9fe923a2b2f7c5c",
+    "income": 0,
+    "outcome": 10,
+    "date": "2018-01-30T17:32:55.000Z",
+    "multi": false,
+    "category": {
+      "id": 17,
+      "category": "Autres",
+      "label": "Cadeaux"
+    },
+    "bankaccount": {
+      "id": 28,
+      "category": "Perso",
+      "label": "Espèces"
+    },
+    "cost": -1000
+  },
+  {
+    "_id": "5a75f155f9fe923a2b2f7c54",
+    "income": 0,
+    "outcome": 31.49,
+    "date": "2018-01-30T17:28:33.000Z",
+    "multi": false,
+    "category": {
+      "id": 14,
+      "category": "Alimentaire",
+      "label": "Supermarché"
+    },
+    "bankaccount": {
+      "id": 21,
+      "category": "Commun",
+      "label": "CMB"
+    },
+    "cost": -3149
+  },
+  {
+    "_id": "5a75f141f9fe923a2b2f7c53",
+    "income": 0,
+    "outcome": 23.1,
+    "date": "2018-01-30T17:27:55.000Z",
+    "multi": false,
+    "category": {
+      "id": 27,
+      "category": "Loisir",
+      "label": "Sorties"
+    },
+    "label": "Péage",
+    "bankaccount": {
+      "id": 21,
+      "category": "Commun",
+      "label": "CMB"
+    },
+    "cost": -2310
+  },
+  {
+    "_id": "5a75f11bf9fe923a2b2f7c52",
+    "income": 0,
+    "outcome": 86.7,
+    "date": "2018-01-30T17:27:31.000Z",
+    "multi": false,
+    "category": {
+      "id": 14,
+      "category": "Alimentaire",
+      "label": "Supermarché"
+    },
+    "bankaccount": {
+      "id": 21,
+      "category": "Commun",
+      "label": "CMB"
+    },
+    "cost": -8670
+  },
+  {
+    "_id": "5a75ed00f9fe923a2b2f7c4a",
+    "income": 0,
+    "outcome": 10,
+    "date": "2018-01-30T17:10:04.000Z",
+    "multi": false,
+    "category": {
+      "id": 26,
+      "category": "Alimentaire",
+      "label": "Restaurant"
+    },
+    "bankaccount": {
+      "id": 22,
+      "category": "Perso",
+      "label": "CMB"
+    },
+    "cost": -1000
+  },
+  {
+    "_id": "5a75ebf6f9fe923a2b2f7c48",
+    "income": 50,
+    "outcome": 0,
+    "date": "2018-01-30T17:05:44.000Z",
+    "multi": false,
+    "bankaccount": {
+      "id": 28,
+      "category": "Perso",
+      "label": "Espèces"
+    },
+    "cost": 5000
+  },
+  {
+    "_id": "5a75dc08f9fe923a2b2f7c40",
+    "income": 22,
+    "outcome": 0,
+    "date": "2018-01-30T15:57:40.000Z",
+    "multi": false,
+    "category": {
+      "id": 27,
+      "category": "Loisir",
+      "label": "Sorties"
+    },
+    "label": "Rennes -  PSG",
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    },
+    "cost": 2200
+  },
+  {
+    "_id": "5a75f247f9fe923a2b2f7c5b",
+    "income": 0,
+    "outcome": 13,
+    "date": "2018-01-29T17:32:43.000Z",
+    "multi": false,
+    "category": {
+      "id": 27,
+      "category": "Loisir",
+      "label": "Sorties"
+    },
+    "bankaccount": {
+      "id": 28,
+      "category": "Perso",
+      "label": "Espèces"
+    },
+    "cost": -1300
+  },
+  {
+    "_id": "5a75f23bf9fe923a2b2f7c5a",
+    "income": 0,
+    "outcome": 6,
+    "date": "2018-01-29T17:32:26.000Z",
+    "multi": false,
+    "category": {
+      "id": 27,
+      "category": "Loisir",
+      "label": "Sorties"
+    },
+    "bankaccount": {
+      "id": 28,
+      "category": "Perso",
+      "label": "Espèces"
+    },
+    "cost": -600
+  },
+  {
+    "_id": "5a75f22af9fe923a2b2f7c59",
+    "income": 25,
+    "outcome": 0,
+    "date": "2018-01-29T17:32:01.000Z",
+    "multi": false,
+    "category": {
+      "id": 27,
+      "category": "Loisir",
+      "label": "Sorties"
+    },
+    "bankaccount": {
+      "id": 28,
+      "category": "Perso",
+      "label": "Espèces"
+    },
+    "cost": 2500
+  },
+  {
+    "_id": "5a75f103f9fe923a2b2f7c51",
+    "income": 0,
+    "outcome": 16.45,
+    "date": "2018-01-29T17:27:08.000Z",
+    "multi": false,
+    "category": {
+      "id": 17,
+      "category": "Autres",
+      "label": "Cadeaux"
+    },
+    "bankaccount": {
+      "id": 21,
+      "category": "Commun",
+      "label": "CMB"
+    },
+    "cost": -1645
+  },
+  {
+    "_id": "5a75f0ecf9fe923a2b2f7c50",
+    "income": 0,
+    "outcome": 43.13,
+    "date": "2018-01-29T17:26:38.000Z",
+    "multi": false,
+    "category": {
+      "id": 22,
+      "category": "Transport",
+      "label": "Essence"
+    },
+    "bankaccount": {
+      "id": 21,
+      "category": "Commun",
+      "label": "CMB"
+    },
+    "cost": -4313
+  },
+  {
+    "_id": "5a75f0cef9fe923a2b2f7c4f",
+    "income": 0,
+    "outcome": 86.95,
+    "date": "2018-01-27T17:26:07.000Z",
+    "multi": false,
+    "category": {
+      "id": 14,
+      "category": "Alimentaire",
+      "label": "Supermarché"
+    },
+    "bankaccount": {
+      "id": 21,
+      "category": "Commun",
+      "label": "CMB"
+    },
+    "cost": -8695
+  },
+  {
+    "_id": "5a75dbf4f9fe923a2b2f7c3f",
+    "income": 0,
+    "outcome": 57.03,
+    "date": "2018-01-27T15:57:18.000Z",
+    "multi": false,
+    "category": {
+      "id": 22,
+      "category": "Transport",
+      "label": "Essence"
+    },
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    },
+    "cost": -5703
+  },
+  {
+    "_id": "5a75dbdef9fe923a2b2f7c3e",
+    "income": 44,
+    "outcome": 0,
+    "date": "2018-01-25T15:56:59.000Z",
+    "multi": false,
+    "category": {
+      "id": 27,
+      "category": "Loisir",
+      "label": "Sorties"
+    },
+    "label": "Rennes - PSG",
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    },
+    "cost": 4400
+  },
+  {
+    "_id": "5a75f8cef9fe923a2b2f7c62",
+    "income": 2937.97,
+    "outcome": 0,
+    "date": "2018-01-24T18:00:32.000Z",
+    "multi": false,
+    "bankaccount": {
+      "id": 13,
+      "category": "PEE",
+      "label": "Amundi Protect ESR"
+    },
+    "cost": 293797
+  },
+  {
+    "_id": "5a75f8c0f9fe923a2b2f7c61",
+    "income": 0,
+    "outcome": 2937.97,
+    "date": "2018-01-24T18:00:03.000Z",
+    "multi": false,
+    "bankaccount": {
+      "id": 14,
+      "category": "PEE",
+      "label": "Amundi 3 mois ESR"
+    },
+    "cost": -293797
+  },
+  {
+    "_id": "5a75ed1af9fe923a2b2f7c4b",
+    "income": 100,
+    "outcome": 0,
+    "date": "2018-01-24T17:10:33.000Z",
+    "multi": false,
+    "bankaccount": {
+      "id": 22,
+      "category": "Perso",
+      "label": "CMB"
+    },
+    "cost": 10000
+  },
+  {
+    "_id": "5a75ececf9fe923a2b2f7c49",
+    "income": 0,
+    "outcome": 110,
+    "date": "2018-01-24T17:09:36.000Z",
+    "multi": false,
+    "category": {
+      "id": 27,
+      "category": "Loisir",
+      "label": "Sorties"
+    },
+    "label": "Rennes - PSG",
+    "bankaccount": {
+      "id": 22,
+      "category": "Perso",
+      "label": "CMB"
+    },
+    "cost": -11000
+  },
+  {
+    "_id": "5a75dbcbf9fe923a2b2f7c3d",
+    "income": 0,
+    "outcome": 100,
+    "date": "2018-01-24T15:56:33.000Z",
+    "multi": false,
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    },
+    "cost": -10000
+  },
+  {
+    "_id": "5a75f0aff9fe923a2b2f7c4e",
+    "income": 0,
+    "outcome": 19.6,
+    "date": "2018-01-22T17:25:49.000Z",
+    "multi": false,
+    "category": {
+      "id": 15,
+      "category": "Maison",
+      "label": "Divers"
+    },
+    "bankaccount": {
+      "id": 21,
+      "category": "Commun",
+      "label": "CMB"
+    },
+    "cost": -1960
+  },
+  {
+    "_id": "5a75f071f9fe923a2b2f7c4d",
+    "income": 0,
+    "outcome": 7.45,
+    "date": "2018-01-22T17:24:34.000Z",
+    "multi": false,
+    "category": {
+      "id": 64,
+      "category": "Bébé",
+      "label": "Accessoires"
+    },
+    "bankaccount": {
+      "id": 21,
+      "category": "Commun",
+      "label": "CMB"
+    },
+    "cost": -745
+  },
+  {
+    "_id": "5a75dbb1f9fe923a2b2f7c3c",
+    "income": 0,
+    "outcome": 19.99,
+    "date": "2018-01-22T15:56:18.000Z",
+    "multi": false,
+    "category": {
+      "id": 44,
+      "category": "Loisir",
+      "label": "Téléphone"
+    },
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    },
+    "cost": -1999
+  },
+  {
+    "_id": "5a64cfa4a157c02fe91b6236",
+    "income": 9.98,
+    "outcome": 0,
+    "date": "2018-01-21T17:36:03.745Z",
+    "multi": false,
+    "category": {
+      "id": 66,
+      "category": "Revenu",
+      "label": "Vir Externe"
+    },
+    "bankaccount": {
+      "id": 16,
+      "category": "PEE",
+      "label": "CCB"
+    },
+    "cost": 998
+  },
+  {
+    "_id": "5a64cf83a157c02fe91b6235",
+    "income": 31.72,
+    "outcome": 0,
+    "date": "2018-01-21T17:35:23.361Z",
+    "multi": false,
+    "category": {
+      "id": 66,
+      "category": "Revenu",
+      "label": "Vir Externe"
+    },
+    "bankaccount": {
+      "id": 13,
+      "category": "PEE",
+      "label": "Amundi Protect ESR"
+    },
+    "cost": 3172
+  },
+  {
+    "_id": "5a64c460a157c02fe91b622e",
+    "income": 0,
+    "outcome": 189,
+    "date": "2018-01-20T16:47:57.000Z",
+    "multi": false,
+    "category": {
+      "id": 14,
+      "category": "Alimentaire",
+      "label": "Supermarché"
+    },
+    "label": "21TRs sur la carte Boucherie",
+    "bankaccount": {
+      "id": 30,
+      "category": "Perso",
+      "label": "Ticket Restaurant"
+    },
+    "cost": -18900
+  },
+  {
+    "_id": "5a64bb30a157c02fe91b6220",
+    "income": 0,
+    "outcome": 66.05,
+    "date": "2018-01-19T16:09:06.000Z",
+    "multi": false,
+    "category": {
+      "id": 14,
+      "category": "Alimentaire",
+      "label": "Supermarché"
+    },
+    "bankaccount": {
+      "id": 21,
+      "category": "Commun",
+      "label": "CMB"
+    },
+    "cost": -6605
+  },
+  {
+    "_id": "5a64b5bba157c02fe91b61ef",
+    "income": 0,
+    "outcome": 20,
+    "date": "2018-01-19T15:45:41.000Z",
+    "multi": false,
+    "label": "Galette",
+    "category": {
+      "id": 14,
+      "category": "Alimentaire",
+      "label": "Supermarché"
+    },
+    "bankaccount": {
+      "id": 28,
+      "category": "Perso",
+      "label": "Espèces"
+    },
+    "cost": -2000
+  },
+  {
+    "_id": "5a64c541a157c02fe91b6231",
+    "income": 0,
+    "outcome": 4.59,
+    "date": "2018-01-18T16:51:57.000Z",
+    "multi": false,
+    "category": {
+      "id": 14,
+      "category": "Alimentaire",
+      "label": "Supermarché"
+    },
+    "bankaccount": {
+      "id": 28,
+      "category": "Perso",
+      "label": "Espèces"
+    },
+    "cost": -459
+  },
+  {
+    "_id": "5a64bb22a157c02fe91b621f",
+    "income": 0,
+    "outcome": 34.44,
+    "date": "2018-01-18T16:08:50.000Z",
+    "multi": false,
+    "category": {
+      "id": 14,
+      "category": "Alimentaire",
+      "label": "Supermarché"
+    },
+    "bankaccount": {
+      "id": 21,
+      "category": "Commun",
+      "label": "CMB"
+    },
+    "cost": -3444
+  },
+  {
+    "_id": "5a64b5cea157c02fe91b61f0",
+    "income": 0,
+    "outcome": 5,
+    "date": "2018-01-18T15:46:03.000Z",
+    "multi": false,
+    "category": {
+      "id": 17,
+      "category": "Autres",
+      "label": "Cadeaux"
+    },
+    "label": "Départ Thierry",
+    "bankaccount": {
+      "id": 28,
+      "category": "Perso",
+      "label": "Espèces"
+    },
+    "cost": -500
+  },
+  {
+    "_id": "5a64b4faa157c02fe91b61eb",
+    "income": 30,
+    "outcome": 0,
+    "date": "2018-01-18T15:42:41.000Z",
+    "multi": false,
+    "bankaccount": {
+      "id": 28,
+      "category": "Perso",
+      "label": "Espèces"
+    },
+    "cost": 3000
+  },
+  {
+    "_id": "5a64b4e8a157c02fe91b61e9",
+    "income": 0,
+    "outcome": 30,
+    "date": "2018-01-18T15:42:25.000Z",
+    "multi": false,
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    },
+    "cost": -3000
+  },
+  {
+    "_id": "5a64b5e6a157c02fe91b61f1",
+    "income": 0,
+    "outcome": 5.7,
+    "date": "2018-01-17T15:46:22.000Z",
+    "multi": false,
+    "category": {
+      "id": 26,
+      "category": "Alimentaire",
+      "label": "Restaurant"
+    },
+    "bankaccount": {
+      "id": 28,
+      "category": "Perso",
+      "label": "Espèces"
+    },
+    "cost": -570
+  },
+  {
+    "_id": "5a64b4f1a157c02fe91b61ea",
+    "income": 20,
+    "outcome": 0,
+    "date": "2018-01-17T15:42:32.000Z",
+    "multi": false,
+    "bankaccount": {
+      "id": 28,
+      "category": "Perso",
+      "label": "Espèces"
+    },
+    "cost": 2000
+  },
+  {
+    "_id": "5a64b4e1a157c02fe91b61e8",
+    "income": 0,
+    "outcome": 20,
+    "date": "2018-01-17T15:42:02.000Z",
+    "multi": false,
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    },
+    "cost": -2000
+  },
+  {
+    "_id": "5a64bb12a157c02fe91b621e",
+    "income": 0,
+    "outcome": 11.86,
+    "date": "2018-01-16T16:08:24.000Z",
+    "multi": false,
+    "category": {
+      "id": 14,
+      "category": "Alimentaire",
+      "label": "Supermarché"
+    },
+    "bankaccount": {
+      "id": 21,
+      "category": "Commun",
+      "label": "CMB"
+    },
+    "cost": -1186
+  },
+  {
+    "_id": "5a64baf8a157c02fe91b621d",
+    "income": 0,
+    "outcome": 87.54,
+    "date": "2018-01-16T16:07:20.000Z",
+    "multi": false,
+    "category": {
+      "id": 25,
+      "category": "Maison",
+      "label": "Meuble/Electroménager"
+    },
+    "bankaccount": {
+      "id": 21,
+      "category": "Commun",
+      "label": "CMB"
+    },
+    "label": "Table basse",
+    "cost": -8754
+  },
+  {
+    "_id": "5a64b50aa157c02fe91b61ec",
+    "income": 0,
+    "outcome": 296,
+    "date": "2018-01-16T15:42:50.000Z",
+    "multi": false,
+    "category": {
+      "id": 45,
+      "category": "Impôts & Taxes",
+      "label": "Impôts sur le revenu"
+    },
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    },
+    "cost": -29600
+  },
+  {
+    "_id": "5a64cf5ba157c02fe91b6234",
+    "income": 23.65,
+    "outcome": 0,
+    "date": "2018-01-15T17:34:33.000Z",
+    "multi": false,
+    "category": {
+      "id": 66,
+      "category": "Revenu",
+      "label": "Vir Externe"
+    },
+    "bankaccount": {
+      "id": 15,
+      "category": "PEE",
+      "label": "Amundi Actions Euroland ESR"
+    },
+    "cost": 2365
+  },
+  {
+    "_id": "5a64cf29a157c02fe91b6233",
+    "income": 0,
+    "outcome": 1.49,
+    "date": "2018-01-15T17:33:54.000Z",
+    "multi": false,
+    "category": {
+      "id": 66,
+      "category": "Revenu",
+      "label": "Vir Externe"
+    },
+    "bankaccount": {
+      "id": 14,
+      "category": "PEE",
+      "label": "Amundi 3 mois ESR"
+    },
+    "cost": -149
+  },
+  {
+    "_id": "5a64ce93a157c02fe91b6232",
+    "income": 0,
+    "outcome": 45.31,
+    "date": "2018-01-15T17:31:29.000Z",
+    "multi": false,
+    "bankaccount": {
+      "id": 28,
+      "category": "Perso",
+      "label": "Espèces"
+    },
+    "category": {
+      "id": 26,
+      "category": "Alimentaire",
+      "label": "Restaurant"
+    },
+    "cost": -4531
+  },
+  {
+    "_id": "5a64bcdba157c02fe91b622b",
+    "income": 60,
+    "outcome": 0,
+    "date": "2018-01-15T16:16:20.000Z",
+    "multi": false,
+    "bankaccount": {
+      "id": 31,
+      "category": "Perso",
+      "label": "PEL"
+    },
+    "cost": 6000
+  },
+  {
+    "_id": "5a64bcd4a157c02fe91b622a",
+    "income": 0,
+    "outcome": 60,
+    "date": "2018-01-15T16:16:08.000Z",
+    "multi": false,
+    "bankaccount": {
+      "id": 22,
+      "category": "Perso",
+      "label": "CMB"
+    },
+    "cost": -6000
+  },
+  {
+    "_id": "5a64bab8a157c02fe91b621c",
+    "income": 0,
+    "outcome": 57,
+    "date": "2018-01-15T16:07:01.000Z",
+    "multi": false,
+    "category": {
+      "id": 67,
+      "category": "Impôts & Taxes",
+      "label": "Taxe foncière"
+    },
+    "bankaccount": {
+      "id": 21,
+      "category": "Commun",
+      "label": "CMB"
+    },
+    "cost": -5700
+  },
+  {
+    "_id": "5a64baa5a157c02fe91b621b",
+    "income": 0,
+    "outcome": 85,
+    "date": "2018-01-15T16:06:39.000Z",
+    "multi": false,
+    "category": {
+      "id": 28,
+      "category": "Impôts & Taxes",
+      "label": "Taxe d’habitation"
+    },
+    "bankaccount": {
+      "id": 21,
+      "category": "Commun",
+      "label": "CMB"
+    },
+    "cost": -8500
+  },
+  {
+    "_id": "5a64b4caa157c02fe91b61e7",
+    "income": 0,
+    "outcome": 44.78,
+    "date": "2018-01-15T15:41:40.000Z",
+    "multi": false,
+    "category": {
+      "id": 62,
+      "category": "Transport",
+      "label": "Réparation"
+    },
+    "label": "Changement plaque",
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    },
+    "cost": -4478
+  },
+  {
+    "_id": "5a64ba8fa157c02fe91b621a",
+    "income": 0,
+    "outcome": 24.9,
+    "date": "2018-01-13T16:06:06.000Z",
+    "multi": false,
+    "category": {
+      "id": 14,
+      "category": "Alimentaire",
+      "label": "Supermarché"
+    },
+    "bankaccount": {
+      "id": 21,
+      "category": "Commun",
+      "label": "CMB"
+    },
+    "cost": -2490
+  },
+  {
+    "_id": "5a64ba6ea157c02fe91b6219",
+    "income": 0,
+    "outcome": 62.41,
+    "date": "2018-01-12T16:05:48.000Z",
+    "multi": false,
+    "category": {
+      "id": 14,
+      "category": "Alimentaire",
+      "label": "Supermarché"
+    },
+    "bankaccount": {
+      "id": 21,
+      "category": "Commun",
+      "label": "CMB"
+    },
+    "cost": -6241
+  },
+  {
+    "_id": "5a64ba5ca157c02fe91b6218",
+    "income": 0,
+    "outcome": 69.19,
+    "date": "2018-01-12T16:05:31.000Z",
+    "multi": false,
+    "category": {
+      "id": 14,
+      "category": "Alimentaire",
+      "label": "Supermarché"
+    },
+    "bankaccount": {
+      "id": 21,
+      "category": "Commun",
+      "label": "CMB"
+    },
+    "cost": -6919
+  },
+  {
+    "_id": "5a64ba4ba157c02fe91b6217",
+    "income": 0,
+    "outcome": 99.15,
+    "date": "2018-01-12T16:05:10.000Z",
+    "multi": false,
+    "category": {
+      "id": 14,
+      "category": "Alimentaire",
+      "label": "Supermarché"
+    },
+    "bankaccount": {
+      "id": 21,
+      "category": "Commun",
+      "label": "CMB"
+    },
+    "cost": -9915
+  },
+  {
+    "_id": "5a64c48da157c02fe91b622f",
+    "income": 144,
+    "outcome": 0,
+    "date": "2018-01-11T16:48:51.000Z",
+    "multi": false,
+    "category": {
+      "id": 46,
+      "category": "Revenu",
+      "label": "Salaire"
+    },
+    "bankaccount": {
+      "id": 30,
+      "category": "Perso",
+      "label": "Ticket Restaurant"
+    },
+    "cost": 14400
+  },
+  {
+    "_id": "5a64ba36a157c02fe91b6216",
+    "income": 0,
+    "outcome": 5.6,
+    "date": "2018-01-10T16:04:46.000Z",
+    "multi": false,
+    "category": {
+      "id": 27,
+      "category": "Loisir",
+      "label": "Sorties"
+    },
+    "bankaccount": {
+      "id": 21,
+      "category": "Commun",
+      "label": "CMB"
+    },
+    "cost": -560
+  },
+  {
+    "_id": "5a64ba1ea157c02fe91b6215",
+    "income": 0,
+    "outcome": 14.38,
+    "date": "2018-01-10T16:04:25.000Z",
+    "multi": false,
+    "category": {
+      "id": 65,
+      "category": "Bébé",
+      "label": "Vêtements"
+    },
+    "bankaccount": {
+      "id": 21,
+      "category": "Commun",
+      "label": "CMB"
+    },
+    "cost": -1438
+  },
+  {
+    "_id": "5a64b549a157c02fe91b61ed",
+    "income": 0,
+    "outcome": 26,
+    "date": "2018-01-09T15:43:54.000Z",
+    "multi": false,
+    "category": {
+      "id": 40,
+      "category": "Loisir",
+      "label": "PC"
+    },
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    },
+    "cost": -2600
+  },
+  {
+    "_id": "5a64bcc8a157c02fe91b6229",
+    "income": 0,
+    "outcome": 6.54,
+    "date": "2018-01-08T16:15:51.000Z",
+    "multi": false,
+    "category": {
+      "id": 10,
+      "category": "Autres",
+      "label": "Banque"
+    },
+    "bankaccount": {
+      "id": 22,
+      "category": "Perso",
+      "label": "CMB"
+    },
+    "cost": -654
+  },
+  {
+    "_id": "5a64ba09a157c02fe91b6214",
+    "income": 0,
+    "outcome": 4.87,
+    "date": "2018-01-08T16:04:07.000Z",
+    "multi": false,
+    "category": {
+      "id": 10,
+      "category": "Autres",
+      "label": "Banque"
+    },
+    "bankaccount": {
+      "id": 21,
+      "category": "Commun",
+      "label": "CMB"
+    },
+    "cost": -487
+  },
+  {
+    "_id": "5a64b9f7a157c02fe91b6213",
+    "income": 0,
+    "outcome": 10.51,
+    "date": "2018-01-08T16:03:42.000Z",
+    "multi": false,
+    "category": {
+      "id": 14,
+      "category": "Alimentaire",
+      "label": "Supermarché"
+    },
+    "bankaccount": {
+      "id": 21,
+      "category": "Commun",
+      "label": "CMB"
+    },
+    "cost": -1051
+  },
+  {
+    "_id": "5a51191441ce3d39b3b771dc",
+    "income": 0,
+    "outcome": 64.15,
+    "date": "2018-01-05T18:44:02.000Z",
+    "multi": false,
+    "category": {
+      "id": 61,
+      "category": "Transport",
+      "label": "Assurance"
+    },
+    "label": "Assurance Voiture + assurance Décès",
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    },
+    "cost": -6415
+  },
+  {
+    "_id": "5a64b9dea157c02fe91b6212",
+    "income": 0,
+    "outcome": 16.72,
+    "date": "2018-01-05T16:03:28.000Z",
+    "multi": false,
+    "category": {
+      "id": 14,
+      "category": "Alimentaire",
+      "label": "Supermarché"
+    },
+    "bankaccount": {
+      "id": 21,
+      "category": "Commun",
+      "label": "CMB"
+    },
+    "cost": -1672
+  },
+  {
+    "_id": "5a64b9d0a157c02fe91b6211",
+    "income": 0,
+    "outcome": 23.82,
+    "date": "2018-01-05T16:03:08.000Z",
+    "multi": false,
+    "category": {
+      "id": 16,
+      "category": "Maison",
+      "label": "Assurance"
+    },
+    "bankaccount": {
+      "id": 21,
+      "category": "Commun",
+      "label": "CMB"
+    },
+    "cost": -2382
+  },
+  {
+    "_id": "5a64b9bca157c02fe91b6210",
+    "income": 0,
+    "outcome": 41.98,
+    "date": "2018-01-05T16:02:51.000Z",
+    "multi": false,
+    "category": {
+      "id": 23,
+      "category": "Maison",
+      "label": "Internet"
+    },
+    "bankaccount": {
+      "id": 21,
+      "category": "Commun",
+      "label": "CMB"
+    },
+    "cost": -4198
+  },
+  {
+    "_id": "5a64b9aba157c02fe91b620f",
+    "income": 0,
+    "outcome": 260.27,
+    "date": "2018-01-05T16:02:36.000Z",
+    "multi": false,
+    "category": {
+      "id": 20,
+      "category": "Maison",
+      "label": "Eau"
+    },
+    "bankaccount": {
+      "id": 21,
+      "category": "Commun",
+      "label": "CMB"
+    },
+    "cost": -26027
+  },
+  {
+    "_id": "5a64b99ca157c02fe91b620e",
+    "income": 0,
+    "outcome": 59.42,
+    "date": "2018-01-05T16:02:08.000Z",
+    "multi": false,
+    "category": {
+      "id": 14,
+      "category": "Alimentaire",
+      "label": "Supermarché"
+    },
+    "bankaccount": {
+      "id": 21,
+      "category": "Commun",
+      "label": "CMB"
+    },
+    "cost": -5942
+  },
+  {
+    "_id": "5a64b980a157c02fe91b620d",
+    "income": 0,
+    "outcome": 72.14,
+    "date": "2018-01-04T16:01:53.000Z",
+    "multi": false,
+    "category": {
+      "id": 24,
+      "category": "Maison",
+      "label": "Loyer/Prêt"
+    },
+    "bankaccount": {
+      "id": 21,
+      "category": "Commun",
+      "label": "CMB"
+    },
+    "cost": -7214
+  },
+  {
+    "_id": "5a64b971a157c02fe91b620c",
+    "income": 0,
+    "outcome": 175.15,
+    "date": "2018-01-04T16:01:40.000Z",
+    "multi": false,
+    "category": {
+      "id": 24,
+      "category": "Maison",
+      "label": "Loyer/Prêt"
+    },
+    "bankaccount": {
+      "id": 21,
+      "category": "Commun",
+      "label": "CMB"
+    },
+    "cost": -17515
+  },
+  {
+    "_id": "5a64b964a157c02fe91b620b",
+    "income": 0,
+    "outcome": 873.06,
+    "date": "2018-01-04T16:01:20.000Z",
+    "multi": false,
+    "category": {
+      "id": 24,
+      "category": "Maison",
+      "label": "Loyer/Prêt"
+    },
+    "bankaccount": {
+      "id": 21,
+      "category": "Commun",
+      "label": "CMB"
+    },
+    "cost": -87306
+  },
+  {
+    "_id": "5a64b950a157c02fe91b620a",
+    "income": 200,
+    "outcome": 0,
+    "date": "2018-01-04T16:01:02.000Z",
+    "multi": false,
+    "category": {
+      "id": 17,
+      "category": "Autres",
+      "label": "Cadeaux"
+    },
+    "bankaccount": {
+      "id": 21,
+      "category": "Commun",
+      "label": "CMB"
+    },
+    "cost": 20000
+  },
+  {
+    "_id": "5a64b47ca157c02fe91b61e5",
+    "income": 1300,
+    "outcome": 0,
+    "date": "2018-01-04T15:40:34.000Z",
+    "multi": false,
+    "bankaccount": {
+      "id": 21,
+      "category": "Commun",
+      "label": "CMB"
+    },
+    "cost": 130000
+  },
+  {
+    "_id": "5a64b472a157c02fe91b61e4",
+    "income": 0,
+    "outcome": 1300,
+    "date": "2018-01-04T15:40:22.000Z",
+    "multi": false,
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    },
+    "cost": -130000
+  },
+  {
+    "_id": "5a64bcb7a157c02fe91b6228",
+    "income": 10.95,
+    "outcome": 0,
+    "date": "2018-01-03T16:15:25.000Z",
+    "multi": false,
+    "category": {
+      "id": 17,
+      "category": "Autres",
+      "label": "Cadeaux"
+    },
+    "label": "Rbt",
+    "bankaccount": {
+      "id": 22,
+      "category": "Perso",
+      "label": "CMB"
+    },
+    "cost": 1095
+  },
+  {
+    "_id": "5a64b567a157c02fe91b61ee",
+    "income": 0,
+    "outcome": 46.55,
+    "date": "2018-01-03T15:44:25.000Z",
+    "multi": false,
+    "category": {
+      "id": 22,
+      "category": "Transport",
+      "label": "Essence"
+    },
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    },
+    "cost": -4655
+  },
+  {
+    "_id": "5a64b174a157c02fe91b61de",
+    "income": 0,
+    "outcome": 20,
+    "date": "2018-01-03T15:27:38.000Z",
+    "multi": false,
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    },
+    "cost": -2000
+  },
+  {
+    "_id": "5a64b11da157c02fe91b61dd",
+    "income": 20,
+    "outcome": 0,
+    "date": "2018-01-03T15:26:12.000Z",
+    "multi": false,
+    "bankaccount": {
+      "id": 28,
+      "category": "Perso",
+      "label": "Espèces"
+    },
+    "cost": 2000
+  },
+  {
+    "_id": "5a5118e641ce3d39b3b771da",
+    "income": 1643.62,
+    "outcome": 0,
+    "date": "2018-01-02T18:43:32.000Z",
+    "multi": false,
+    "category": {
+      "id": 46,
+      "category": "Revenu",
+      "label": "Salaire"
+    },
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    },
+    "cost": 164362
+  },
+  {
+    "_id": "5a64b93ea157c02fe91b6209",
+    "income": 0,
+    "outcome": 86.24,
+    "date": "2018-01-02T16:00:43.000Z",
+    "multi": false,
+    "category": {
+      "id": 14,
+      "category": "Alimentaire",
+      "label": "Supermarché"
+    },
+    "bankaccount": {
+      "id": 21,
+      "category": "Commun",
+      "label": "CMB"
+    },
+    "cost": -8624
+  },
+  {
+    "_id": "5a64b92ba157c02fe91b6208",
+    "income": 0,
+    "outcome": 227.4,
+    "date": "2018-01-02T16:00:29.000Z",
+    "multi": false,
+    "category": {
+      "id": 14,
+      "category": "Alimentaire",
+      "label": "Supermarché"
+    },
+    "bankaccount": {
+      "id": 21,
+      "category": "Commun",
+      "label": "CMB"
+    },
+    "cost": -22740
+  },
+  {
+    "_id": "5a64b91da157c02fe91b6207",
+    "income": 50,
+    "outcome": 0,
+    "date": "2018-01-02T16:00:07.000Z",
+    "multi": false,
+    "label": "Vir Sandra",
+    "category": {
+      "id": 66,
+      "category": "Revenu",
+      "label": "Vir Externe"
+    },
+    "bankaccount": {
+      "id": 21,
+      "category": "Commun",
+      "label": "CMB"
+    },
+    "cost": 5000
+  },
+  {
+    "_id": "5a64b907a157c02fe91b6206",
+    "income": 1000,
+    "outcome": 0,
+    "date": "2018-01-01T15:59:50.000Z",
+    "multi": false,
+    "category": {
+      "id": 66,
+      "category": "Revenu",
+      "label": "Vir Externe"
+    },
+    "bankaccount": {
+      "id": 21,
+      "category": "Commun",
+      "label": "CMB"
+    },
+    "label": "Vir Sandra",
+    "cost": 100000
+  },
+  {
+    "_id": "5a64b369a157c02fe91b61e3",
+    "income": 171.53,
+    "outcome": 0,
+    "date": "2017-12-31T15:35:45.000Z",
+    "multi": false,
+    "category": {
+      "id": 66,
+      "category": "Revenu",
+      "label": "Vir Externe"
+    },
+    "label": "Intérêts 2017",
+    "bankaccount": {
+      "id": 29,
+      "category": "Perso",
+      "label": "Livret A"
+    },
+    "cost": 17153
+  },
+  {
+    "_id": "5a64b351a157c02fe91b61e2",
+    "income": 16.48,
+    "outcome": 0,
+    "date": "2017-12-31T15:35:21.000Z",
+    "multi": false,
+    "category": {
+      "id": 66,
+      "category": "Revenu",
+      "label": "Vir Externe"
+    },
+    "label": "Intérêts 2017",
+    "bankaccount": {
+      "id": 27,
+      "category": "Perso",
+      "label": "LDD"
+    },
+    "cost": 1648
+  },
+  {
+    "_id": "5a64c4c7a157c02fe91b6230",
+    "income": 0,
+    "outcome": 98.4,
+    "date": "2017-12-30T16:49:54.000Z",
+    "multi": false,
+    "category": {
+      "id": 26,
+      "category": "Alimentaire",
+      "label": "Restaurant"
+    },
+    "bankaccount": {
+      "id": 30,
+      "category": "Perso",
+      "label": "Ticket Restaurant"
+    },
+    "cost": -9840
+  },
+  {
+    "_id": "5a64b8b1a157c02fe91b6205",
+    "income": 0,
+    "outcome": 112.21,
+    "date": "2017-12-30T15:58:17.000Z",
+    "multi": false,
+    "category": {
+      "id": 14,
+      "category": "Alimentaire",
+      "label": "Supermarché"
+    },
+    "bankaccount": {
+      "id": 21,
+      "category": "Commun",
+      "label": "CMB"
+    },
+    "cost": -11221
+  },
+  {
+    "_id": "5a64b835a157c02fe91b6200",
+    "income": 0,
+    "outcome": 2.2,
+    "date": "2017-12-29T15:56:19.000Z",
+    "multi": false,
+    "category": {
+      "id": 27,
+      "category": "Loisir",
+      "label": "Sorties"
+    },
+    "label": "Péage",
+    "bankaccount": {
+      "id": 21,
+      "category": "Commun",
+      "label": "CMB"
+    },
+    "cost": -220
+  },
+  {
+    "_id": "5a64b823a157c02fe91b61ff",
+    "income": 0,
+    "outcome": 23,
+    "date": "2017-12-29T15:55:44.000Z",
+    "multi": false,
+    "category": {
+      "id": 27,
+      "category": "Loisir",
+      "label": "Sorties"
+    },
+    "label": "Péage",
+    "bankaccount": {
+      "id": 21,
+      "category": "Commun",
+      "label": "CMB"
+    },
+    "cost": -2300
+  },
+  {
+    "_id": "5a64b899a157c02fe91b6204",
+    "income": 0,
+    "outcome": 300,
+    "date": "2017-12-28T15:58:03.000Z",
+    "multi": false,
+    "bankaccount": {
+      "id": 21,
+      "category": "Commun",
+      "label": "CMB"
+    },
+    "cost": -30000
+  },
+  {
+    "_id": "5a64b87fa157c02fe91b6203",
+    "income": 300,
+    "outcome": 0,
+    "date": "2017-12-28T15:57:40.000Z",
+    "multi": false,
+    "bankaccount": {
+      "id": 31,
+      "category": "Perso",
+      "label": "PEL"
+    },
+    "cost": 30000
+  },
+  {
+    "_id": "5a64b800a157c02fe91b61fe",
+    "income": 0,
+    "outcome": 14.98,
+    "date": "2017-12-27T15:55:26.000Z",
+    "multi": false,
+    "category": {
+      "id": 65,
+      "category": "Bébé",
+      "label": "Vêtements"
+    },
+    "bankaccount": {
+      "id": 21,
+      "category": "Commun",
+      "label": "CMB"
+    },
+    "cost": -1498
+  },
+  {
+    "_id": "5a5118b641ce3d39b3b771d7",
+    "income": 0,
+    "outcome": 52.23,
+    "date": "2017-12-26T18:42:20.000Z",
+    "multi": false,
+    "category": {
+      "id": 17,
+      "category": "Autres",
+      "label": "Cadeaux"
+    },
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    },
+    "cost": -5223
+  },
+  {
+    "_id": "5a51188c41ce3d39b3b771d6",
+    "income": 0,
+    "outcome": 16.8,
+    "date": "2017-12-26T18:41:53.000Z",
+    "multi": false,
+    "category": {
+      "id": 17,
+      "category": "Autres",
+      "label": "Cadeaux"
+    },
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    },
+    "cost": -1680
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db7d5",
+    "date": "2016-08-31T00:00:00.000Z",
+    "income": 0,
+    "outcome": 22.81,
+    "label": "Anniv Sandra",
+    "cost": -2281,
+    "category": {
+      "id": 17,
+      "category": "Autres",
+      "label": "Cadeaux"
+    },
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db7d6",
+    "date": "2016-08-31T00:00:00.000Z",
+    "income": 0,
+    "outcome": 22.99,
+    "label": "Chaussettes + short",
+    "cost": -2299,
+    "category": {
+      "id": 29,
+      "category": "Habillement",
+      "label": "Vêtements"
+    },
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db7d7",
+    "date": "2016-08-31T00:00:00.000Z",
+    "income": 0,
+    "outcome": 24.86,
+    "label": "Anniv Sandra",
+    "cost": -2486,
+    "category": {
+      "id": 17,
+      "category": "Autres",
+      "label": "Cadeaux"
+    },
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db7d8",
+    "date": "2016-08-31T00:00:00.000Z",
+    "income": 0,
+    "outcome": 34.9,
+    "label": "Anniv Sandra",
+    "cost": -3490,
+    "category": {
+      "id": 17,
+      "category": "Autres",
+      "label": "Cadeaux"
+    },
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db7d9",
+    "date": "2016-08-31T00:00:00.000Z",
+    "income": 0,
+    "outcome": 37.9,
+    "label": "",
+    "cost": -3790,
+    "category": {
+      "id": 61,
+      "category": "Transport",
+      "label": "Assurance"
+    },
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db7da",
+    "date": "2016-08-31T00:00:00.000Z",
+    "income": 0,
+    "outcome": 45.9,
+    "label": "Anniv Sandra",
+    "cost": -4590,
+    "category": {
+      "id": 17,
+      "category": "Autres",
+      "label": "Cadeaux"
+    },
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db7db",
+    "date": "2016-08-31T00:00:00.000Z",
+    "income": 0,
+    "outcome": 46,
+    "label": "",
+    "cost": -4600,
+    "category": {
+      "id": 22,
+      "category": "Transport",
+      "label": "Essence"
+    },
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db7dc",
+    "date": "2016-08-31T00:00:00.000Z",
+    "income": 0,
+    "outcome": 50,
+    "label": "",
+    "cost": -5000,
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db7dd",
+    "date": "2016-08-31T00:00:00.000Z",
+    "income": 0,
+    "outcome": 77.19,
+    "label": "Location Voiture",
+    "cost": -7719,
+    "category": {
+      "id": 58,
+      "category": "Vacances",
+      "label": "2016 - Sud France"
+    },
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db7de",
+    "date": "2016-08-31T00:00:00.000Z",
+    "income": 0,
+    "outcome": 80,
+    "label": "",
+    "cost": -8000,
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db7df",
+    "date": "2016-08-31T00:00:00.000Z",
+    "income": 0,
+    "outcome": 286,
+    "label": "",
+    "cost": -28600,
+    "category": {
+      "id": 45,
+      "category": "Impôts & Taxes",
+      "label": "Impôts sur le revenu"
+    },
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db7e0",
+    "date": "2016-08-31T00:00:00.000Z",
+    "income": 0,
+    "outcome": 1000,
+    "label": "",
+    "cost": -100000,
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db8f4",
+    "date": "2016-08-31T00:00:00.000Z",
+    "income": 1000,
+    "outcome": 0,
+    "label": "",
+    "cost": 100000,
+    "bankaccount": {
+      "id": 27,
+      "category": "Perso",
+      "label": "LDD"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db7cc",
+    "date": "2016-08-31T00:00:00.000Z",
+    "income": 2211.14,
+    "outcome": 0,
+    "label": "Salaire Aout",
+    "cost": 221114,
+    "category": {
+      "id": 46,
+      "category": "Revenu",
+      "label": "Salaire"
+    },
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1dbcd6",
+    "date": "2016-08-31T00:00:00.000Z",
+    "income": 0,
+    "outcome": 1.7,
+    "label": "Personal : Miscellaneous - Parking",
+    "cost": -170,
+    "category": {
+      "id": 11,
+      "category": "Autres",
+      "label": "Divers"
+    },
+    "bankaccount": {
+      "id": 25,
+      "category": "Commun",
+      "label": "Fortuneo"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1dbcd7",
+    "date": "2016-08-31T00:00:00.000Z",
+    "income": 0,
+    "outcome": 2.1,
+    "label": "Personal : Miscellaneous - Parking",
+    "cost": -210,
+    "category": {
+      "id": 11,
+      "category": "Autres",
+      "label": "Divers"
+    },
+    "bankaccount": {
+      "id": 25,
+      "category": "Commun",
+      "label": "Fortuneo"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1dbcd8",
+    "date": "2016-08-31T00:00:00.000Z",
+    "income": 0,
+    "outcome": 3.2,
+    "label": "Personal : Miscellaneous - Parking",
+    "cost": -320,
+    "category": {
+      "id": 11,
+      "category": "Autres",
+      "label": "Divers"
+    },
+    "bankaccount": {
+      "id": 25,
+      "category": "Commun",
+      "label": "Fortuneo"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1dbcd9",
+    "date": "2016-08-31T00:00:00.000Z",
+    "income": 0,
+    "outcome": 6,
+    "label": "Crepes",
+    "cost": -600,
+    "category": {
+      "id": 26,
+      "category": "Alimentaire",
+      "label": "Restaurant"
+    },
+    "bankaccount": {
+      "id": 25,
+      "category": "Commun",
+      "label": "Fortuneo"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1dbcda",
+    "date": "2016-08-31T00:00:00.000Z",
+    "income": 0,
+    "outcome": 21.6,
+    "label": "Recreation : Entertainment - Peage",
+    "cost": -2160,
+    "category": {
+      "id": 27,
+      "category": "Loisir",
+      "label": "Sorties"
+    },
+    "bankaccount": {
+      "id": 25,
+      "category": "Commun",
+      "label": "Fortuneo"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1dbcdb",
+    "date": "2016-08-31T00:00:00.000Z",
+    "income": 0,
+    "outcome": 37.97,
+    "label": "Housing : Phone & Internet -",
+    "cost": -3797,
+    "category": {
+      "id": 23,
+      "category": "Maison",
+      "label": "Internet"
+    },
+    "bankaccount": {
+      "id": 25,
+      "category": "Commun",
+      "label": "Fortuneo"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1dbcdc",
+    "date": "2016-08-31T00:00:00.000Z",
+    "income": 0,
+    "outcome": 42,
+    "label": "Housing : Water -",
+    "cost": -4200,
+    "category": {
+      "id": 20,
+      "category": "Maison",
+      "label": "Eau"
+    },
+    "bankaccount": {
+      "id": 25,
+      "category": "Commun",
+      "label": "Fortuneo"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1dbcdd",
+    "date": "2016-08-31T00:00:00.000Z",
+    "income": 0,
+    "outcome": 48,
+    "label": "Pouilly",
+    "cost": -4800,
+    "category": {
+      "id": 14,
+      "category": "Alimentaire",
+      "label": "Supermarché"
+    },
+    "bankaccount": {
+      "id": 25,
+      "category": "Commun",
+      "label": "Fortuneo"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1dbcde",
+    "date": "2016-08-31T00:00:00.000Z",
+    "income": 0,
+    "outcome": 66.33,
+    "label": "",
+    "cost": -6633,
+    "category": {
+      "id": 14,
+      "category": "Alimentaire",
+      "label": "Supermarché"
+    },
+    "bankaccount": {
+      "id": 25,
+      "category": "Commun",
+      "label": "Fortuneo"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1dbcdf",
+    "date": "2016-08-31T00:00:00.000Z",
+    "income": 0,
+    "outcome": 67.98,
+    "label": "",
+    "cost": -6798,
+    "category": {
+      "id": 14,
+      "category": "Alimentaire",
+      "label": "Supermarché"
+    },
+    "bankaccount": {
+      "id": 25,
+      "category": "Commun",
+      "label": "Fortuneo"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1dbce0",
+    "date": "2016-08-31T00:00:00.000Z",
+    "income": 0,
+    "outcome": 70.73,
+    "label": "",
+    "cost": -7073,
+    "category": {
+      "id": 14,
+      "category": "Alimentaire",
+      "label": "Supermarché"
+    },
+    "bankaccount": {
+      "id": 25,
+      "category": "Commun",
+      "label": "Fortuneo"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1dbce1",
+    "date": "2016-08-31T00:00:00.000Z",
+    "income": 0,
+    "outcome": 80.68,
+    "label": "",
+    "cost": -8068,
+    "category": {
+      "id": 14,
+      "category": "Alimentaire",
+      "label": "Supermarché"
+    },
+    "bankaccount": {
+      "id": 25,
+      "category": "Commun",
+      "label": "Fortuneo"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1dbce2",
+    "date": "2016-08-31T00:00:00.000Z",
+    "income": 0,
+    "outcome": 87,
+    "label": "Housing : Taxe Habitation -",
+    "cost": -8700,
+    "category": {
+      "id": 28,
+      "category": "Impôts & Taxes",
+      "label": "Taxe d’habitation"
+    },
+    "bankaccount": {
+      "id": 25,
+      "category": "Commun",
+      "label": "Fortuneo"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1dbce3",
+    "date": "2016-08-31T00:00:00.000Z",
+    "income": 0,
+    "outcome": 88.63,
+    "label": "Housing : Electricity -",
+    "cost": -8863,
+    "category": {
+      "id": 21,
+      "category": "Maison",
+      "label": "Electricité"
+    },
+    "bankaccount": {
+      "id": 25,
+      "category": "Commun",
+      "label": "Fortuneo"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1dbce4",
+    "date": "2016-08-31T00:00:00.000Z",
+    "income": 0,
+    "outcome": 653.9,
+    "label": "Housing : Mortgage/Rent -",
+    "cost": -65390,
+    "category": {
+      "id": 24,
+      "category": "Maison",
+      "label": "Loyer/Prêt"
+    },
+    "bankaccount": {
+      "id": 25,
+      "category": "Commun",
+      "label": "Fortuneo"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1dbcd5",
+    "date": "2016-08-02T00:00:00.000Z",
+    "income": 700,
+    "outcome": 0,
+    "label": "Sandra",
+    "cost": 70000,
+    "category": {
+      "id": 46,
+      "category": "Revenu",
+      "label": "Salaire"
+    },
+    "bankaccount": {
+      "id": 25,
+      "category": "Commun",
+      "label": "Fortuneo"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db8f3",
+    "date": "2016-08-01T00:00:00.000Z",
+    "income": 0,
+    "outcome": 0,
+    "label": "",
+    "cost": 0,
+    "category": {
+      "id": 46,
+      "category": "Revenu",
+      "label": "Salaire"
+    },
+    "bankaccount": {
+      "id": 27,
+      "category": "Perso",
+      "label": "LDD"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db7c9",
+    "date": "2016-08-01T00:00:00.000Z",
+    "income": 0,
+    "outcome": 30,
+    "label": "St Jean",
+    "cost": -3000,
+    "category": {
+      "id": 27,
+      "category": "Loisir",
+      "label": "Sorties"
+    },
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db7ca",
+    "date": "2016-08-01T00:00:00.000Z",
+    "income": 0,
+    "outcome": 300,
+    "label": "Logement",
+    "cost": -30000,
+    "category": {
+      "id": 58,
+      "category": "Vacances",
+      "label": "2016 - Sud France"
+    },
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db7cb",
+    "date": "2016-08-01T00:00:00.000Z",
+    "income": 0,
+    "outcome": 700,
+    "label": "",
+    "cost": -70000,
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1dbcd4",
+    "date": "2016-08-01T00:00:00.000Z",
+    "income": 700,
+    "outcome": 0,
+    "label": "",
+    "cost": 70000,
+    "bankaccount": {
+      "id": 25,
+      "category": "Commun",
+      "label": "Fortuneo"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db0c4",
+    "date": "2016-07-31T00:00:00.000Z",
+    "income": 0,
+    "outcome": 13.5,
+    "label": "Swin Golf",
+    "cost": -1350,
+    "category": {
+      "id": 27,
+      "category": "Loisir",
+      "label": "Sorties"
+    },
+    "bankaccount": {
+      "id": 28,
+      "category": "Perso",
+      "label": "Espèces"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db0c5",
+    "date": "2016-07-31T00:00:00.000Z",
+    "income": 0,
+    "outcome": 15.65,
+    "label": "",
+    "cost": -1565,
+    "category": {
+      "id": 27,
+      "category": "Loisir",
+      "label": "Sorties"
+    },
+    "bankaccount": {
+      "id": 28,
+      "category": "Perso",
+      "label": "Espèces"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db249",
+    "date": "2016-07-31T00:00:00.000Z",
+    "income": 158.4,
+    "outcome": 0,
+    "label": "18 Trs",
+    "cost": 15840,
+    "category": {
+      "id": 46,
+      "category": "Revenu",
+      "label": "Salaire"
+    },
+    "bankaccount": {
+      "id": 30,
+      "category": "Perso",
+      "label": "Ticket Restaurant"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db24a",
+    "date": "2016-07-31T00:00:00.000Z",
+    "income": 0,
+    "outcome": 123.2,
+    "label": "",
+    "cost": -12320,
+    "category": {
+      "id": 26,
+      "category": "Alimentaire",
+      "label": "Restaurant"
+    },
+    "bankaccount": {
+      "id": 30,
+      "category": "Perso",
+      "label": "Ticket Restaurant"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db8f1",
+    "date": "2016-07-31T00:00:00.000Z",
+    "income": 6000,
+    "outcome": 0,
+    "label": "",
+    "cost": 600000,
+    "bankaccount": {
+      "id": 27,
+      "category": "Perso",
+      "label": "LDD"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db8f2",
+    "date": "2016-07-31T00:00:00.000Z",
+    "income": 1000,
+    "outcome": 0,
+    "label": "",
+    "cost": 100000,
+    "bankaccount": {
+      "id": 27,
+      "category": "Perso",
+      "label": "LDD"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db7b3",
+    "date": "2016-07-31T00:00:00.000Z",
+    "income": 2286.17,
+    "outcome": 0,
+    "label": "Salaire Juillet",
+    "cost": 228617,
+    "category": {
+      "id": 46,
+      "category": "Revenu",
+      "label": "Salaire"
+    },
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db7b4",
+    "date": "2016-07-31T00:00:00.000Z",
+    "income": 512.1,
+    "outcome": 0,
+    "label": "Rbt PC Parent",
+    "cost": 51210,
+    "category": {
+      "id": 40,
+      "category": "Loisir",
+      "label": "PC"
+    },
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db7b5",
+    "date": "2016-07-31T00:00:00.000Z",
+    "income": 50,
+    "outcome": 0,
+    "label": "(Split 1/3) ",
+    "cost": 5000,
+    "category": {
+      "id": 13,
+      "category": "Loisir",
+      "label": "Jeux d’argent"
+    },
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db7b6",
+    "date": "2016-07-31T00:00:00.000Z",
+    "income": 7.78,
+    "outcome": 0,
+    "label": "(Split 2/3) ",
+    "cost": 778,
+    "category": {
+      "id": 11,
+      "category": "Autres",
+      "label": "Divers"
+    },
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db7b7",
+    "date": "2016-07-31T00:00:00.000Z",
+    "income": 66.22,
+    "outcome": 0,
+    "label": "(Split 3/3) ",
+    "cost": 6622,
+    "category": {
+      "id": 56,
+      "category": "Vacances",
+      "label": "2016 - Prague"
+    },
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db7b8",
+    "date": "2016-07-31T00:00:00.000Z",
+    "income": 24.08,
+    "outcome": 0,
+    "label": "Rbt",
+    "cost": 2408,
+    "category": {
+      "id": 47,
+      "category": "Santé",
+      "label": "Médecin"
+    },
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db7b9",
+    "date": "2016-07-31T00:00:00.000Z",
+    "income": 11.18,
+    "outcome": 0,
+    "label": "Rbt Mutuelle",
+    "cost": 1118,
+    "category": {
+      "id": 47,
+      "category": "Santé",
+      "label": "Médecin"
+    },
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db7ba",
+    "date": "2016-07-31T00:00:00.000Z",
+    "income": 8.5,
+    "outcome": 0,
+    "label": "Rbt Sandra",
+    "cost": 850,
+    "category": {
+      "id": 27,
+      "category": "Loisir",
+      "label": "Sorties"
+    },
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db7bb",
+    "date": "2016-07-31T00:00:00.000Z",
+    "income": 0,
+    "outcome": 13.95,
+    "label": "Licence Excel",
+    "cost": -1395,
+    "category": {
+      "id": 40,
+      "category": "Loisir",
+      "label": "PC"
+    },
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db7bc",
+    "date": "2016-07-31T00:00:00.000Z",
+    "income": 0,
+    "outcome": 17,
+    "label": "",
+    "cost": -1700,
+    "category": {
+      "id": 27,
+      "category": "Loisir",
+      "label": "Sorties"
+    },
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db7bd",
+    "date": "2016-07-31T00:00:00.000Z",
+    "income": 0,
+    "outcome": 20.37,
+    "label": "",
+    "cost": -2037,
+    "category": {
+      "id": 44,
+      "category": "Loisir",
+      "label": "Téléphone"
+    },
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db7be",
+    "date": "2016-07-31T00:00:00.000Z",
+    "income": 0,
+    "outcome": 34.8,
+    "label": "",
+    "cost": -3480,
+    "category": {
+      "id": 27,
+      "category": "Loisir",
+      "label": "Sorties"
+    },
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db7bf",
+    "date": "2016-07-31T00:00:00.000Z",
+    "income": 0,
+    "outcome": 37.26,
+    "label": "",
+    "cost": -3726,
+    "category": {
+      "id": 47,
+      "category": "Santé",
+      "label": "Médecin"
+    },
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db7c0",
+    "date": "2016-07-31T00:00:00.000Z",
+    "income": 0,
+    "outcome": 37.9,
+    "label": "",
+    "cost": -3790,
+    "category": {
+      "id": 61,
+      "category": "Transport",
+      "label": "Assurance"
+    },
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db7c1",
+    "date": "2016-07-31T00:00:00.000Z",
+    "income": 0,
+    "outcome": 39.59,
+    "label": "",
+    "cost": -3959,
+    "category": {
+      "id": 22,
+      "category": "Transport",
+      "label": "Essence"
+    },
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db7c2",
+    "date": "2016-07-31T00:00:00.000Z",
+    "income": 0,
+    "outcome": 117.19,
+    "label": "Nouveau disque dur + cable ventilateur",
+    "cost": -11719,
+    "category": {
+      "id": 40,
+      "category": "Loisir",
+      "label": "PC"
+    },
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db7c3",
+    "date": "2016-07-31T00:00:00.000Z",
+    "income": 0,
+    "outcome": 135,
+    "label": "Licence Windows 10",
+    "cost": -13500,
+    "category": {
+      "id": 40,
+      "category": "Loisir",
+      "label": "PC"
+    },
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db7c4",
+    "date": "2016-07-31T00:00:00.000Z",
+    "income": 0,
+    "outcome": 286,
+    "label": "",
+    "cost": -28600,
+    "category": {
+      "id": 45,
+      "category": "Impôts & Taxes",
+      "label": "Impôts sur le revenu"
+    },
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db7c5",
+    "date": "2016-07-31T00:00:00.000Z",
+    "income": 0,
+    "outcome": 558.1,
+    "label": "PC Parent",
+    "cost": -55810,
+    "category": {
+      "id": 40,
+      "category": "Loisir",
+      "label": "PC"
+    },
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db7c6",
+    "date": "2016-07-31T00:00:00.000Z",
+    "income": 0,
+    "outcome": 700,
+    "label": "",
+    "cost": -70000,
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db7c7",
+    "date": "2016-07-31T00:00:00.000Z",
+    "income": 0,
+    "outcome": 1000,
+    "label": "",
+    "cost": -100000,
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db7c8",
+    "date": "2016-07-31T00:00:00.000Z",
+    "income": 0,
+    "outcome": 6000,
+    "label": "",
+    "cost": -600000,
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1dbcbc",
+    "date": "2016-07-31T00:00:00.000Z",
+    "income": 700,
+    "outcome": 0,
+    "label": "",
+    "cost": 70000,
+    "bankaccount": {
+      "id": 25,
+      "category": "Commun",
+      "label": "Fortuneo"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1dbb43",
+    "date": "2014-11-30T00:00:00.000Z",
+    "income": 0,
+    "outcome": 63,
+    "label": "Housing : Mortgage/Rent - Taxe ordure ménagère",
+    "cost": -6300,
+    "category": {
+      "id": 24,
+      "category": "Maison",
+      "label": "Loyer/Prêt"
+    },
+    "bankaccount": {
+      "id": 25,
+      "category": "Commun",
+      "label": "Fortuneo"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1dbb44",
+    "date": "2014-11-30T00:00:00.000Z",
+    "income": 0,
+    "outcome": 75.4,
+    "label": "",
+    "cost": -7540,
+    "category": {
+      "id": 14,
+      "category": "Alimentaire",
+      "label": "Supermarché"
+    },
+    "bankaccount": {
+      "id": 25,
+      "category": "Commun",
+      "label": "Fortuneo"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db5d4",
+    "date": "2014-11-24T00:00:00.000Z",
+    "income": 0,
+    "outcome": 4.94,
+    "label": "Film Photo D7100",
+    "cost": -494,
+    "category": {
+      "id": 41,
+      "category": "Loisir",
+      "label": "Photographie"
+    },
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db5d5",
+    "date": "2014-11-24T00:00:00.000Z",
+    "income": 0,
+    "outcome": 9,
+    "label": "Art To play",
+    "cost": -900,
+    "category": {
+      "id": 27,
+      "category": "Loisir",
+      "label": "Sorties"
+    },
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db5d6",
+    "date": "2014-11-24T00:00:00.000Z",
+    "income": 0,
+    "outcome": 10,
+    "label": "FDJ",
+    "cost": -1000,
+    "category": {
+      "id": 13,
+      "category": "Loisir",
+      "label": "Jeux d’argent"
+    },
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db5d7",
+    "date": "2014-11-24T00:00:00.000Z",
+    "income": 0,
+    "outcome": 51.21,
+    "label": "",
+    "cost": -5121,
+    "category": {
+      "id": 22,
+      "category": "Transport",
+      "label": "Essence"
+    },
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db5d8",
+    "date": "2014-11-24T00:00:00.000Z",
+    "income": 0,
+    "outcome": 41.99,
+    "label": "(Split 1/2) Carte SD 64 Go",
+    "cost": -4199,
+    "category": {
+      "id": 41,
+      "category": "Loisir",
+      "label": "Photographie"
+    },
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db5d9",
+    "date": "2014-11-24T00:00:00.000Z",
+    "income": 0,
+    "outcome": 20.49,
+    "label": "(Split 2/2) Noël Sandra :Batterie Coolpix S6600",
+    "cost": -2049,
+    "category": {
+      "id": 17,
+      "category": "Autres",
+      "label": "Cadeaux"
+    },
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db5da",
+    "date": "2014-11-24T00:00:00.000Z",
+    "income": 0,
+    "outcome": 119.99,
+    "label": "Chaise de bureau Sandra",
+    "cost": -11999,
+    "category": {
+      "id": 17,
+      "category": "Autres",
+      "label": "Cadeaux"
+    },
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db5db",
+    "date": "2014-11-24T00:00:00.000Z",
+    "income": 0,
+    "outcome": 760.49,
+    "label": "D7100",
+    "cost": -76049,
+    "category": {
+      "id": 41,
+      "category": "Loisir",
+      "label": "Photographie"
+    },
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1dacbd",
+    "date": "2014-11-23T00:00:00.000Z",
+    "income": 0,
+    "outcome": 100,
+    "label": "",
+    "cost": -10000,
+    "bankaccount": {
+      "id": 29,
+      "category": "Perso",
+      "label": "Livret A"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db3c0",
+    "date": "2013-07-31T00:00:00.000Z",
+    "income": 0,
+    "outcome": 50.6,
+    "label": "Champagne",
+    "cost": -5060,
+    "category": {
+      "id": 27,
+      "category": "Loisir",
+      "label": "Sorties"
+    },
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1dac94",
+    "date": "2013-07-29T00:00:00.000Z",
+    "income": 0,
+    "outcome": 200,
+    "label": "",
+    "cost": -20000,
+    "bankaccount": {
+      "id": 29,
+      "category": "Perso",
+      "label": "Livret A"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1dafba",
+    "date": "2013-07-29T00:00:00.000Z",
+    "income": 30,
+    "outcome": 0,
+    "label": "",
+    "cost": 3000,
+    "bankaccount": {
+      "id": 28,
+      "category": "Perso",
+      "label": "Espèces"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1dafbb",
+    "date": "2013-07-29T00:00:00.000Z",
+    "income": 0,
+    "outcome": 9.72,
+    "label": "",
+    "cost": -972,
+    "category": {
+      "id": 14,
+      "category": "Alimentaire",
+      "label": "Supermarché"
+    },
+    "bankaccount": {
+      "id": 28,
+      "category": "Perso",
+      "label": "Espèces"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1dafbc",
+    "date": "2013-07-29T00:00:00.000Z",
+    "income": 0,
+    "outcome": 15,
+    "label": "Viennoiseries anniv",
+    "cost": -1500,
+    "category": {
+      "id": 11,
+      "category": "Autres",
+      "label": "Divers"
+    },
+    "bankaccount": {
+      "id": 28,
+      "category": "Perso",
+      "label": "Espèces"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db3b5",
+    "date": "2013-07-29T00:00:00.000Z",
+    "income": 400,
+    "outcome": 0,
+    "label": "",
+    "cost": 40000,
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db3b6",
+    "date": "2013-07-29T00:00:00.000Z",
+    "income": 200,
+    "outcome": 0,
+    "label": "",
+    "cost": 20000,
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db3b7",
+    "date": "2013-07-29T00:00:00.000Z",
+    "income": 0,
+    "outcome": 10.4,
+    "label": "Péage St Jean",
+    "cost": -1040,
+    "category": {
+      "id": 27,
+      "category": "Loisir",
+      "label": "Sorties"
+    },
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db3b8",
+    "date": "2013-07-29T00:00:00.000Z",
+    "income": 0,
+    "outcome": 14.8,
+    "label": "",
+    "cost": -1480,
+    "category": {
+      "id": 26,
+      "category": "Alimentaire",
+      "label": "Restaurant"
+    },
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db3b9",
+    "date": "2013-07-29T00:00:00.000Z",
+    "income": 0,
+    "outcome": 18.64,
+    "label": "Anniv Noah",
+    "cost": -1864,
+    "category": {
+      "id": 17,
+      "category": "Autres",
+      "label": "Cadeaux"
+    },
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db3ba",
+    "date": "2013-07-29T00:00:00.000Z",
+    "income": 0,
+    "outcome": 30,
+    "label": "",
+    "cost": -3000,
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db3bb",
+    "date": "2013-07-29T00:00:00.000Z",
+    "income": 0,
+    "outcome": 46.4,
+    "label": "",
+    "cost": -4640,
+    "category": {
+      "id": 26,
+      "category": "Alimentaire",
+      "label": "Restaurant"
+    },
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db3bc",
+    "date": "2013-07-29T00:00:00.000Z",
+    "income": 0,
+    "outcome": 500,
+    "label": "",
+    "cost": -50000,
+    "bankaccount": {
+      "id": 26,
+      "category": "Perso",
+      "label": "ING Direct"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db8c4",
+    "date": "2013-07-29T00:00:00.000Z",
+    "income": 500,
+    "outcome": 0,
+    "label": "",
+    "cost": 50000,
+    "bankaccount": {
+      "id": 24,
+      "category": "Perso",
+      "label": "Fortuneo"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db8c5",
+    "date": "2013-07-29T00:00:00.000Z",
+    "income": 0,
+    "outcome": 400,
+    "label": "",
+    "cost": -40000,
+    "bankaccount": {
+      "id": 24,
+      "category": "Perso",
+      "label": "Fortuneo"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1daf1d",
+    "date": "2012-11-15T00:00:00.000Z",
+    "income": 0,
+    "outcome": 3.84,
+    "label": "",
+    "cost": -384,
+    "category": {
+      "id": 14,
+      "category": "Alimentaire",
+      "label": "Supermarché"
+    },
+    "bankaccount": {
+      "id": 28,
+      "category": "Perso",
+      "label": "Espèces"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db1e4",
+    "date": "2012-11-15T00:00:00.000Z",
+    "income": 69.6,
+    "outcome": 0,
+    "label": "8 TRs",
+    "cost": 6960,
+    "category": {
+      "id": 46,
+      "category": "Revenu",
+      "label": "Salaire"
+    },
+    "bankaccount": {
+      "id": 30,
+      "category": "Perso",
+      "label": "Ticket Restaurant"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1dac0b",
+    "date": "2012-11-14T00:00:00.000Z",
+    "income": 0,
+    "outcome": 8.41,
+    "label": "",
+    "cost": -841,
+    "category": {
+      "id": 10,
+      "category": "Autres",
+      "label": "Banque"
+    },
+    "bankaccount": {
+      "id": 23,
+      "category": "Perso",
+      "label": "Crédit Mutuel"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1daf1b",
+    "date": "2012-11-14T00:00:00.000Z",
+    "income": 0,
+    "outcome": 0.2,
+    "label": "Café",
+    "cost": -20,
+    "category": {
+      "id": 14,
+      "category": "Alimentaire",
+      "label": "Supermarché"
+    },
+    "bankaccount": {
+      "id": 28,
+      "category": "Perso",
+      "label": "Espèces"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1dac0a",
+    "date": "2012-11-13T00:00:00.000Z",
+    "income": 0,
+    "outcome": 150,
+    "label": "",
+    "cost": -15000,
+    "bankaccount": {
+      "id": 23,
+      "category": "Perso",
+      "label": "Crédit Mutuel"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1daf1a",
+    "date": "2012-11-13T00:00:00.000Z",
+    "income": 0,
+    "outcome": 0.15,
+    "label": "",
+    "cost": -15,
+    "category": {
+      "id": 14,
+      "category": "Alimentaire",
+      "label": "Supermarché"
+    },
+    "bankaccount": {
+      "id": 28,
+      "category": "Perso",
+      "label": "Espèces"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1dadae",
+    "date": "2011-11-09T00:00:00.000Z",
+    "income": 0,
+    "outcome": 0.25,
+    "label": "Café",
+    "cost": -25,
+    "category": {
+      "id": 14,
+      "category": "Alimentaire",
+      "label": "Supermarché"
+    },
+    "bankaccount": {
+      "id": 28,
+      "category": "Perso",
+      "label": "Espèces"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1dadaf",
+    "date": "2011-11-09T00:00:00.000Z",
+    "income": 0,
+    "outcome": 0.6,
+    "label": "Cot&Grill",
+    "cost": -60,
+    "category": {
+      "id": 26,
+      "category": "Alimentaire",
+      "label": "Restaurant"
+    },
+    "bankaccount": {
+      "id": 28,
+      "category": "Perso",
+      "label": "Espèces"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1dadb0",
+    "date": "2011-11-09T00:00:00.000Z",
+    "income": 0,
+    "outcome": 3.78,
+    "label": "A/R pour résiliation assurance",
+    "cost": -378,
+    "category": {
+      "id": 44,
+      "category": "Loisir",
+      "label": "Téléphone"
+    },
+    "bankaccount": {
+      "id": 28,
+      "category": "Perso",
+      "label": "Espèces"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db151",
+    "date": "2011-11-09T00:00:00.000Z",
+    "income": 0,
+    "outcome": 17,
+    "label": "Cot&Grill",
+    "cost": -1700,
+    "category": {
+      "id": 26,
+      "category": "Alimentaire",
+      "label": "Restaurant"
+    },
+    "bankaccount": {
+      "id": 30,
+      "category": "Perso",
+      "label": "Ticket Restaurant"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1daa5c",
+    "date": "2011-11-08T00:00:00.000Z",
+    "income": 0,
+    "outcome": 3.75,
+    "label": "",
+    "cost": -375,
+    "category": {
+      "id": 14,
+      "category": "Alimentaire",
+      "label": "Supermarché"
+    },
+    "bankaccount": {
+      "id": 23,
+      "category": "Perso",
+      "label": "Crédit Mutuel"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1daa5d",
+    "date": "2011-11-08T00:00:00.000Z",
+    "income": 0,
+    "outcome": 11.9,
+    "label": "",
+    "cost": -1190,
+    "category": {
+      "id": 26,
+      "category": "Alimentaire",
+      "label": "Restaurant"
+    },
+    "bankaccount": {
+      "id": 23,
+      "category": "Perso",
+      "label": "Crédit Mutuel"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1daa5e",
+    "date": "2011-11-08T00:00:00.000Z",
+    "income": 0,
+    "outcome": 40.37,
+    "label": "",
+    "cost": -4037,
+    "category": {
+      "id": 14,
+      "category": "Alimentaire",
+      "label": "Supermarché"
+    },
+    "bankaccount": {
+      "id": 23,
+      "category": "Perso",
+      "label": "Crédit Mutuel"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1daa5f",
+    "date": "2011-11-08T00:00:00.000Z",
+    "income": 0,
+    "outcome": 47,
+    "label": "",
+    "cost": -4700,
+    "category": {
+      "id": 14,
+      "category": "Alimentaire",
+      "label": "Supermarché"
+    },
+    "bankaccount": {
+      "id": 23,
+      "category": "Perso",
+      "label": "Crédit Mutuel"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1daa60",
+    "date": "2011-11-08T00:00:00.000Z",
+    "income": 0,
+    "outcome": 58.92,
+    "label": "",
+    "cost": -5892,
+    "category": {
+      "id": 14,
+      "category": "Alimentaire",
+      "label": "Supermarché"
+    },
+    "bankaccount": {
+      "id": 23,
+      "category": "Perso",
+      "label": "Crédit Mutuel"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1dadad",
+    "date": "2011-11-08T00:00:00.000Z",
+    "income": 0,
+    "outcome": 1.2,
+    "label": "Café & barre chocolat",
+    "cost": -120,
+    "category": {
+      "id": 14,
+      "category": "Alimentaire",
+      "label": "Supermarché"
+    },
+    "bankaccount": {
+      "id": 28,
+      "category": "Perso",
+      "label": "Espèces"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1dacdd",
+    "date": "2011-01-01T00:00:00.000Z",
+    "income": 19.66,
+    "outcome": 0,
+    "label": "Entered automatically by YNAB",
+    "cost": 1966,
+    "category": {
+      "id": 46,
+      "category": "Revenu",
+      "label": "Salaire"
+    },
+    "bankaccount": {
+      "id": 28,
+      "category": "Perso",
+      "label": "Espèces"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db0e8",
+    "date": "2011-01-01T00:00:00.000Z",
+    "income": 0,
+    "outcome": 0,
+    "label": "Entered automatically by YNAB",
+    "cost": 0,
+    "category": {
+      "id": 46,
+      "category": "Revenu",
+      "label": "Salaire"
+    },
+    "bankaccount": {
+      "id": 30,
+      "category": "Perso",
+      "label": "Ticket Restaurant"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db25d",
+    "date": "2011-01-01T00:00:00.000Z",
+    "income": 30,
+    "outcome": 0,
+    "label": "Cheque Cadeaux fin d'années",
+    "cost": 3000,
+    "category": {
+      "id": 46,
+      "category": "Revenu",
+      "label": "Salaire"
+    },
+    "bankaccount": {
+      "id": 28,
+      "category": "Perso",
+      "label": "Espèces"
+    }
+  },
+  {
+    "_id": "59ac2e5e0f5eb2296a1db25e",
+    "date": "2011-01-01T00:00:00.000Z",
+    "income": 0,
+    "outcome": 0,
+    "label": "Entered automatically by YNAB",
+    "cost": 0,
+    "category": {
+      "id": 46,
+      "category": "Revenu",
+      "label": "Salaire"
+    },
+    "bankaccount": {
+      "id": 28,
+      "category": "Perso",
+      "label": "Espèces"
+    }
+  },
+  {
+    "_id": "5c0d537fe3fd940019cbe3b7",
+    "income": 908,
+    "outcome": 0,
+    "date": "2018-11-03T17:38:47.127Z",
+    "multi": true,
+    "bankaccount": {
+      "id": 21,
+      "category": "Commun",
+      "label": "CMB"
+    },
+    "category": {
+      "id": 0,
+      "category": "Multi",
+      "label": "Multi"
+    },
+    "cost": 90800,
+    "subtransaction": [
+      {
+        "income": 708,
+        "outcome": 0,
+        "category": {
+          "id": 45,
+          "category": "Impôts & Taxes",
+          "label": "Impôts sur le revenu"
+        }
+      },
+      {
+        "income": 200,
+        "outcome": 0,
+        "category": {
+          "id": 66,
+          "category": "Revenu",
+          "label": "Vir Externe"
+        }
+      }
+    ]
+  },
+  {
+    "_id": "5b8eea6ba700820012152870",
+    "income": 0,
+    "outcome": 76.12,
+    "date": "2018-08-30T20:16:27.803Z",
+    "multi": true,
+    "bankaccount": {
+      "id": 21,
+      "category": "Commun",
+      "label": "CMB"
+    },
+    "subtransaction": [
+      {
+        "income": 0,
+        "outcome": 39.95,
+        "category": {
+          "id": 17,
+          "category": "Autres",
+          "label": "Cadeaux"
+        }
+      },
+      {
+        "income": 0,
+        "outcome": 35.17,
+        "category": {
+          "id": 14,
+          "category": "Alimentaire",
+          "label": "Supermarché"
+        }
+      }
+    ],
+    "category": {
+      "id": 0,
+      "category": "Multi",
+      "label": "Multi"
+    },
+    "cost": -7612
+  }
+]

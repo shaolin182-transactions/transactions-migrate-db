@@ -1,6 +1,8 @@
 package org.transactions.source;
 
+import org.model.transactions.Transaction;
+
 public interface ITransactionsOutcomeDatasource {
 
-    void saveTransaction(Object obj);
+    void saveTransaction(Transaction transaction);
 }
