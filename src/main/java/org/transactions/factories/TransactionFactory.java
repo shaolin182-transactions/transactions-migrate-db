@@ -20,8 +20,9 @@ public class TransactionFactory {
 
     private static final Logger LOGGER = LogManager.getLogger();
 
-    public List<Transaction> buildTransactions(List<JSONObject> inputData){
-        return inputData.stream().map(item -> buildTransaction(item)).collect(Collectors.toList());
+    public List<Transaction> buildTransactions(JSONArray inputData){
+        inputData.stream().map(item -> buildTransaction((JSONObject) item)).collect(Collectors.toList());
+        return (List<Transaction>) inputData.stream().map(item -> buildTransaction((JSONObject) item)).collect(Collectors.toList());
     }
 
     /**

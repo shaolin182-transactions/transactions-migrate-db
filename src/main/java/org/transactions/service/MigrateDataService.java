@@ -6,6 +6,7 @@ import org.model.transactions.Transaction;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
+import org.transactions.exception.MigrateDataException;
 import org.transactions.source.ITransactionsIncomeDatasource;
 import org.transactions.source.ITransactionsOutcomeDatasource;
 
@@ -28,11 +29,11 @@ public class MigrateDataService implements CommandLineRunner {
             // Get Filename
         } else {
             LOGGER.atError().log("Error - Wrong arguments");
-            throw new RuntimeException("Error - Wrong arguments");
+            throw new MigrateDataException("Error - Wrong arguments");
         }
 
-        List<Object> dataToMigrate = fromDatasource.getTransactions();
+        List<Transaction> dataToMigrate = fromDatasource.getTransactions();
 
-        dataToMigrate.forEach(item -> toDatasource.saveTransaction((Transaction) item));
+        dataToMigrate.forEach(item -> toDatasource.saveTransaction(item));
     }
 }
