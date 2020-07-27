@@ -49,15 +49,16 @@ class TransactionFactoryTest {
         Assertions.assertAll(
                 () -> assertEquals(1966, result.getCost(), "Error on cost"),
                 () -> assertEquals(OffsetDateTime.of(2011, 1, 1, 0, 0, 0,0, ZoneOffset.UTC), result.getDate(), "Error on create date time"),
-                () -> assertEquals(46, result.getTo().getId(), "Error on bank account id"),
-                () -> assertEquals("Espèces", result.getTo().getLabel(), "Error on bank account label"),
-                () -> assertEquals("Perso", result.getTo().getCategory(), "Error on bank account category"),
+
                 () -> assertEquals(45, result.getTransactions().get(0).getCategory().getId(), "Error on category id"),
                 () -> assertEquals("Salaire", result.getTransactions().get(0).getCategory().getLabel(), "Error on category label"),
                 () -> assertEquals("Revenu", result.getTransactions().get(0).getCategory().getCategory(), "Error on vategory category"),
                 () -> assertEquals(19.66f, result.getTransactions().get(0).getIncome(), "Error on income"),
                 () -> assertEquals(0f, result.getTransactions().get(0).getOutcome(), "Error on outcome"),
-                () -> assertEquals("Entered automatically by YNAB", result.getTransactions().get(0).getDescription(), "Error on bank account category")
+                () -> assertEquals("Entered automatically by YNAB", result.getTransactions().get(0).getDescription(), "Error on bank account category"),
+                () -> assertEquals(46, result.getTransactions().get(0).getBankAccount().getId(), "Error on bank account id"),
+                () -> assertEquals("Espèces", result.getTransactions().get(0).getBankAccount().getLabel(), "Error on bank account label"),
+                () -> assertEquals("Perso", result.getTransactions().get(0).getBankAccount().getCategory(), "Error on bank account category")
         );
     }
 
@@ -83,9 +84,9 @@ class TransactionFactoryTest {
         Assertions.assertAll(
                 () -> assertEquals(1966, result.getCost(), "Error on cost"),
                 () -> assertEquals(OffsetDateTime.of(2011, 1, 1, 0, 0, 0,0, ZoneOffset.UTC), result.getDate(), "Error on create date time"),
-                () -> assertEquals(46, result.getTo().getId(), "Error on bank account id"),
-                () -> assertEquals("Espèces", result.getTo().getLabel(), "Error on bank account label"),
-                () -> assertEquals("Perso", result.getTo().getCategory(), "Error on bank account category"),
+                () -> assertEquals(46, result.getTransactions().get(0).getBankAccount().getId(), "Error on bank account id"),
+                () -> assertEquals("Espèces", result.getTransactions().get(0).getBankAccount().getLabel(), "Error on bank account label"),
+                () -> assertEquals("Perso", result.getTransactions().get(0).getBankAccount().getCategory(), "Error on bank account category"),
                 () -> assertEquals(19.66f, result.getTransactions().get(0).getIncome(), "Error on income"),
                 () -> assertEquals(0f, result.getTransactions().get(0).getOutcome(), "Error on outcome"),
                 () -> assertEquals("Entered automatically by YNAB", result.getTransactions().get(0).getDescription(), "Error on bank account category")
@@ -170,15 +171,16 @@ class TransactionFactoryTest {
         Assertions.assertAll(
                 () -> assertEquals(-26600, result.getCost(), "Error on cost"),
                 () -> assertEquals(OffsetDateTime.of(2017, 9, 17, 15, 44, 10,0, ZoneOffset.UTC), result.getDate(), "Error on create date time"),
-                () -> assertEquals(26, result.getTo().getId(), "Error on bank account id"),
-                () -> assertEquals("ING Direct", result.getTo().getLabel(), "Error on bank account label"),
-                () -> assertEquals("Perso", result.getTo().getCategory(), "Error on bank account category"),
+                () -> assertEquals(26, result.getTransactions().get(0).getBankAccount().getId(), "Error on bank account id"),
+                () -> assertEquals("ING Direct", result.getTransactions().get(0).getBankAccount().getLabel(), "Error on bank account label"),
+                () -> assertEquals("Perso", result.getTransactions().get(0).getBankAccount().getCategory(), "Error on bank account category"),
                 () -> assertEquals(0f, result.getTransactions().get(0).getIncome(), "Error on income"),
                 () -> assertEquals(337.5f, result.getTransactions().get(0).getOutcome(), "Error on outcome")
         );
 
         TransactionDetails detail = new TransactionDetailsBuilder()
                 .withIncome(27.5f).withOutcome(0f)
+                .withBankAccount().withId(26).withCategory("Perso").withLabel("ING Direct").done()
                 .withCategory().withId(40).withCategory("Loisir").withLabel("PC").done()
                 .build();
         MatcherAssert.assertThat(detail, is(in(result.getTransactions())));

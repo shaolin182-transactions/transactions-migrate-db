@@ -37,7 +37,6 @@ public class TransactionFactory {
 
             builder.withDate(OffsetDateTime.parse(item.get("date").toString()));
             builder.withCost(Long.valueOf(item.get("cost").toString()));
-            builder.withBankAccountTo(buildBankAccount(item));
             builder.addTransactions(buildTransactionsList(item));
 
             return builder.build();
@@ -95,7 +94,7 @@ public class TransactionFactory {
 
         if (BooleanUtils.isTrue(multi)) {
             JSONArray subTransactions = (JSONArray) item.get("subtransaction");
-            result = (List<TransactionDetails>) subTransactions.stream().map(elt -> buildTransactionDetail((JSONObject) elt)).collect(Collectors.toList());
+            result = (List<TransactionDetails>) subTransactions.stream().map(elt -> buildTransactionDetail((JSONObject) elt, item)).collect(Collectors.toList());
         } else {
             result.add(buildTransactionDetail(item));
         }
@@ -117,9 +116,32 @@ public class TransactionFactory {
 
         TransactionDetails.TransactionDetailsBuilder builder = new TransactionDetails.TransactionDetailsBuilder();
         return builder.withCategory(buildTransactionCategory(item))
+                .withBankAccount(buildBankAccount(item))
                 .withDescription(label)
                 .withIncome(Float.valueOf(item.get("income").toString()))
                 .withOutcome(Float.valueOf(item.get("outcome").toString()))
+                .build();
+    }
+
+    /**
+     * Build a transaction detail object
+     * @param subTransaction : current sub transaction
+     * @param parent : the main transaction
+     * @return a TransactionDetails object
+     */
+    private TransactionDetails buildTransactionDetail(JSONObject subTransaction, JSONObject parent) {
+
+        String label = null;
+        if (subTransaction.get("label") != null) {
+            label = (String) subTransaction.get("label");
+        }
+
+        TransactionDetails.TransactionDetailsBuilder builder = new TransactionDetails.TransactionDetailsBuilder();
+        return builder.withCategory(buildTransactionCategory(subTransaction))
+                .withBankAccount(buildBankAccount(parent))
+                .withDescription(label)
+                .withIncome(Float.valueOf(subTransaction.get("income").toString()))
+                .withOutcome(Float.valueOf(subTransaction.get("outcome").toString()))
                 .build();
     }
 }

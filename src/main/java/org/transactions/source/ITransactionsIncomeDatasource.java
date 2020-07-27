@@ -8,4 +8,6 @@ import java.util.List;
 public interface ITransactionsIncomeDatasource {
 
     List<Transaction> getTransactions() throws MigrateDataException;
+
+    void configure(Object configuration);
 }

@@ -6,7 +6,7 @@
 
   <groupId>org.transactions</groupId>
   <artifactId>transactions-migrate-data-db</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.1-SNAPSHOT</version>
 
   <packaging>jar</packaging>
 
@@ -56,6 +56,12 @@
       <dependency>
         <groupId>org.transactions</groupId>
         <artifactId>model</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.transactions</groupId>
+        <artifactId>persistence-mongodb</artifactId>
         <version>${project.version}</version>
       </dependency>
       <!-- END -->
@@ -141,6 +147,11 @@
     <dependency>
       <groupId>org.transactions</groupId>
       <artifactId>model</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.transactions</groupId>
+      <artifactId>persistence-mongodb</artifactId>
     </dependency>
 
     <dependency>

@@ -25,10 +25,6 @@ public class TransactionsFileSource implements ITransactionsIncomeDatasource {
 
     private BufferedReader fileReader;
 
-    public void configure(String filename){
-        this.filename = filename;
-    }
-
     /**
      * Load a file
      */
@@ -52,5 +48,10 @@ public class TransactionsFileSource implements ITransactionsIncomeDatasource {
         } catch (IOException | ParseException e) {
             throw new MigrateDataException("Cannot parse JSON file");
         }
+    }
+
+    @Override
+    public void configure(Object configuration) {
+        this.filename = (String) configuration;
     }
 }

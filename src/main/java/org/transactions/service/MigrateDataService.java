@@ -17,6 +17,8 @@ public class MigrateDataService implements CommandLineRunner {
 
     private static final Logger LOGGER = LogManager.getLogger();
 
+    private String filename;
+
     @Autowired
     ITransactionsIncomeDatasource fromDatasource;
 
@@ -27,13 +29,18 @@ public class MigrateDataService implements CommandLineRunner {
     public void run(String... args) throws Exception {
         if (args.length == 1){
             // Get Filename
+            filename = args[0];
         } else {
             LOGGER.atError().log("Error - Wrong arguments");
             throw new MigrateDataException("Error - Wrong arguments");
         }
 
+        fromDatasource.configure(filename);
         List<Transaction> dataToMigrate = fromDatasource.getTransactions();
 
-        dataToMigrate.forEach(item -> toDatasource.saveTransaction(item));
+        dataToMigrate.forEach(item ->  {
+            item.computeDynamicFields();
+            toDatasource.saveTransaction(item);
+        });
     }
 }
